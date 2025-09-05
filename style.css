@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "inter", sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* ini styling header */
+
+.main-header {
+    background-color: rgba(80, 147, 248, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #ddd;
+    /* border bottom itu utk ngasih border untuk di bagian bawah */
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 4px 6px;
+    transition: color 0.3s ease-in-out;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    /* jarak antara section dan aside */
+    margin-top: 20px;
+    /* margin-top itu untuk memberi jarak antara header dan main */
+}
+
+section {
+    flex: 2;
+    /* lebih lebar */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+aside {
+    flex: 1;
+    /* sidebar lebih sempit */
+    background: #02a7b3;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box {
+    background: #1dacff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu {
+    background: #fbff19;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
