@@ -101,3 +101,9 @@ aside {
     border-radius: 5px;
     text-align: center;
 }
+
+.footer{
+    background-color: #02a7b3;
+    text-align: center;
+    margin-top: 20px;
+}
